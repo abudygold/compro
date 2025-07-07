@@ -1,0 +1,15 @@
+.faq.MuiAccordion-root {
+  margin-bottom: 25px;
+  border-radius: 16px !important;
+  box-shadow: none;
+  border: 1px solid #dee1e5;
+}
+.faq.MuiAccordion-root::before {
+  background-color: transparent;
+}
+.faq .MuiTypography-root,
+.faq .MuiAccordionDetails-root {
+  font-family: var(--font-inter);
+  font-size: 16px;
+  color: #3d434c;
+}

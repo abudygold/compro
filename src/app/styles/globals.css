@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+
+@import './components/_button.css';
+@import './components/_accordion.css';
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-gabarito: 'Gabarito', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Gabarito', sans-serif;
+}
+
+.gabarito {
+  font-family: var(--font-gabarito);
+}
+
+.inter {
+  font-family: var(--font-inter);
+}
+
+.discover-app::before {
+  content: '';
+  width: 160;
+  height: auto;
+  margin-left: -160px;
+  background-image: url('/images/discover_our_app.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-header {
+  background-image: url('/images/bg-header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-service {
+  background-image: url('/images/bg-service.svg');
+}
+
+.bg-powered-capabilities {
+  background-image:
+    url('/images/powered-capabilities.svg'),
+    url('/images/bg-powered-capabilities-vector.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position:
+    bottom,
+    right top;
+}
+
+.bg-omni-channel-vector {
+  background-image: url('/images/bg-omni-channel-vector.svg');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: left;
+}
+
+.bg-total {
+  background-image: url('/images/bg-total.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-get-started {
+  background-image: url('/images/bg-green-get-started.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 640px) {
+  .discover-app::before {
+    display: none;
+  }
+
+  .bg-powered-capabilities {
+    background-image: url('/images/bg-powered-capabilities-vector.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  .bg-total {
+    background-size: auto;
+  }
+}

@@ -1,0 +1,23 @@
+.primary-button {
+  color: #ffffff !important;
+  background-color: #76aeaf !important;
+  border-radius: 65px !important;
+  border-color: #9de0e0;
+  box-shadow: none !important;
+}
+
+.secondary-button {
+  color: #ffffff !important;
+  background-color: #3f4242 !important;
+  border-radius: 65px !important;
+  border-color: #686d6d;
+  box-shadow: none !important;
+}
+
+.tertiary-button {
+  color: #886f6f !important;
+  background-color: rgba(231, 231, 231, 0.2) !important;
+  border-radius: 65px !important;
+  border: 1px solid rgba(231, 231, 231, 0.8) !important;
+  box-shadow: none !important;
+}
