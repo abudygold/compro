@@ -38,7 +38,7 @@ export const FAQ = () => {
   ];
   return (
     <>
-      <section className="px-4 py-6 md:lg:px-28 place-content-center md:lg:pb-28">
+      <section className="px-4 py-6 md:lg:px-28 place-content-center md:lg:py-28">
         <div className="grid gap-4 md:lg:grid-flow-col md:lg:grid-cols-4 md:lg:grid-rows-2">
           <div className="col-span-2 row-span-3">
             <div className="w-full">
