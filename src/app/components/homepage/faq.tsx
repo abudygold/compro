@@ -59,7 +59,7 @@ export const FAQ = () => {
               find an answer, you can call us or contact us below.
             </p>
 
-            <Button
+            {/* <Button
               variant="contained"
               className="tertiary-button"
               sx={{
@@ -71,7 +71,7 @@ export const FAQ = () => {
               }}
             >
               Contact Us
-            </Button>
+            </Button> */}
 
             <Image
               src="/images/bg-faq.svg"

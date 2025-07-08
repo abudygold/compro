@@ -38,13 +38,13 @@ export const HeaderPage = () => {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link href="/">
+          {/* <Link href="/">
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemText primary="Product" />
               </ListItemButton>
             </ListItem>
-          </Link>
+          </Link> */}
           <Link href="/terms-of-use" onClick={() => setActiveMenu('terms')}>
             <ListItem disablePadding>
               <ListItemButton>
@@ -131,9 +131,9 @@ export const HeaderPage = () => {
               <Link href="/">
                 <Typography sx={styleNavbar}>Home</Typography>
               </Link>
-              <Link href="/">
+              {/* <Link href="/">
                 <Typography sx={styleNavbar}>Product</Typography>
-              </Link>
+              </Link> */}
               <Link href="/terms-of-use" onClick={() => setActiveMenu('terms')}>
                 <Typography
                   className={activeMenu === 'terms-of-use' ? 'active' : ''}

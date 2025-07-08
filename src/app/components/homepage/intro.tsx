@@ -39,7 +39,7 @@ export const Intro = () => {
             effortlessly.
           </p>
 
-          <div className="flex justify-start gap-2 md:lg:gap-6 discover-app">
+          {/* <div className="flex justify-start gap-2 md:lg:gap-6 discover-app">
             <Button
               variant="contained"
               className="md:lg:min-h-14 !text-[12px] md:lg:text-sm primary-button"
@@ -53,7 +53,7 @@ export const Intro = () => {
             >
               See Our Pricing
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

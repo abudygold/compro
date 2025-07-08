@@ -51,22 +51,22 @@ export const Footer = () => {
           </Typography>
           <ul className="space-y-4">
             <li>
-              <Link href="#" className="text-[#99A3A9]">
+              <Link href="/" className="text-[#99A3A9]">
                 Home
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="#" className="text-[#99A3A9]">
                 Product
               </Link>
-            </li>
+            </li> */}
             <li>
-              <Link href="#" className="text-[#99A3A9]">
+              <Link href="/terms-of-use" className="text-[#99A3A9]">
                 Terms of Use
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-[#99A3A9]">
+              <Link href="/privacy-note" className="text-[#99A3A9]">
                 Privacy note
               </Link>
             </li>

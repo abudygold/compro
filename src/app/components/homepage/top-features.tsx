@@ -104,7 +104,7 @@ export const TopFeatures = () => {
           </div>
         </div>
 
-        <div className="w-full mt-4 text-center md:lg:mt-10">
+        {/* <div className="w-full mt-4 text-center md:lg:mt-10">
           <Button
             variant="contained"
             className="md:lg:min-h-10 !text-[12px] md:lg:text-sm tertiary-button"
@@ -115,7 +115,7 @@ export const TopFeatures = () => {
             Try Our App
             <ArrowForwardIcon className="ml-2" />
           </Button>
-        </div>
+        </div> */}
       </section>
     </>
   );

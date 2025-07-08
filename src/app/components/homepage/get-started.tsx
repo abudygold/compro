@@ -24,7 +24,7 @@ export const GetStarted = () => {
           contact us below.
         </p>
 
-        <div className="w-full">
+        {/* <div className="w-full">
           <Button
             variant="contained"
             className="text-base md:lg:min-h-10 md:lg:text-sm"
@@ -38,7 +38,7 @@ export const GetStarted = () => {
           >
             Get Started Now
           </Button>
-        </div>
+        </div> */}
       </section>
     </>
   );
