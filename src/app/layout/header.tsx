@@ -2,20 +2,16 @@
 
 import {
   Box,
-  Divider,
   Drawer,
   IconButton,
   List,
   ListItem,
   ListItemButton,
-  ListItemIcon,
   ListItemText,
   Typography,
 } from '@mui/material';
 import Image from 'next/image';
 import MenuIcon from '@mui/icons-material/Menu';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -55,6 +51,13 @@ export const Header = () => {
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemText primary="Privacy Note" />
+              </ListItemButton>
+            </ListItem>
+          </Link>
+          <Link href="/console">
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemText primary="Console" />
               </ListItemButton>
             </ListItem>
           </Link>
@@ -139,6 +142,10 @@ export const Header = () => {
 
               <Link href="/privacy-note">
                 <Typography sx={styleNavbar}>Privacy Note</Typography>
+              </Link>
+
+              <Link href="/console">
+                <Typography sx={styleNavbar}>Console</Typography>
               </Link>
             </Box>
           </div>

@@ -39,19 +39,8 @@ export const Service = () => {
             </p>
 
             <p className="text-[#6D7579] text-sm md:lg:text-base">
-              Connecta offers a seamless omnichannel{' '}
-              <span className="hidden md:inline">
-                <br />
-              </span>{' '}
-              experience by connecting all your{' '}
-              <span className="hidden md:inline">
-                <br />
-              </span>{' '}
-              communication needs on a single
-              <span className="hidden md:inline">
-                <br />
-              </span>{' '}
-              platform.
+              Connecta offers a seamless omnichannel experience by connecting
+              all your communication needs on a single platform.
             </p>
           </div>
 
@@ -69,15 +58,8 @@ export const Service = () => {
             </p>
 
             <p className="text-[#6D7579] text-sm md:lg:text-base">
-              With our user-friendly flow builder tools,{' '}
-              <span className="hidden md:inline">
-                <br />
-              </span>{' '}
-              you can easily personalize messages{' '}
-              <span className="hidden md:inline">
-                <br />
-              </span>{' '}
-              through simple drag-and-drop feature.
+              With our user-friendly flow builder tools, you can easily
+              personalize messages through simple drag-and-drop feature.
             </p>
           </div>
 
@@ -95,15 +77,8 @@ export const Service = () => {
             </p>
 
             <p className="text-[#6D7579] text-sm md:lg:text-base">
-              Transform with audience and streamline{' '}
-              <span className="hidden md:inline">
-                <br />
-              </span>{' '}
-              your marketing with Connecta's innovative{' '}
-              <span className="hidden md:inline">
-                <br />
-              </span>{' '}
-              services, everything in your hand.
+              Transform with audience and streamline your marketing with
+              Connecta's innovative services, everything in your hand.
             </p>
           </div>
         </div>

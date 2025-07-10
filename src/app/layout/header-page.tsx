@@ -2,20 +2,16 @@
 
 import {
   Box,
-  Divider,
   Drawer,
   IconButton,
   List,
   ListItem,
   ListItemButton,
-  ListItemIcon,
   ListItemText,
   Typography,
 } from '@mui/material';
 import Image from 'next/image';
 import MenuIcon from '@mui/icons-material/Menu';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
@@ -56,6 +52,13 @@ export const HeaderPage = () => {
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemText primary="Privacy Note" />
+              </ListItemButton>
+            </ListItem>
+          </Link>
+          <Link href="/console">
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemText primary="Console" />
               </ListItemButton>
             </ListItem>
           </Link>
@@ -131,9 +134,15 @@ export const HeaderPage = () => {
               <Link href="/">
                 <Typography sx={styleNavbar}>Home</Typography>
               </Link>
+
+              <Link href="/console">
+                <Typography sx={styleNavbar}>Console</Typography>
+              </Link>
+
               {/* <Link href="/">
                 <Typography sx={styleNavbar}>Product</Typography>
               </Link> */}
+
               <Link href="/terms-of-use" onClick={() => setActiveMenu('terms')}>
                 <Typography
                   className={activeMenu === 'terms-of-use' ? 'active' : ''}
@@ -142,6 +151,7 @@ export const HeaderPage = () => {
                   Terms of Use
                 </Typography>
               </Link>
+
               <Link
                 href="/privacy-note"
                 onClick={() => setActiveMenu('privacy')}
